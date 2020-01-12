@@ -23,15 +23,6 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         launch(args);
-        ResultSet resultSet=QueryExec.executeSelect("Select * from employees");
-        try {
-            while(resultSet.next()){
-                String x=resultSet.getString(2);
-                System.out.println(x);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
 
     }
 }
