@@ -1,20 +1,27 @@
 package sample;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.control.*;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 
+import java.io.IOException;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 
 public class Controller {
     private Label label;
-@FXML
-    VBox Vboxid;
     @FXML
    private Button Przycisk;
+    @FXML
+    private BorderPane bpid;
     @FXML
     private RadioButton radioButton1;
     @FXML
@@ -43,9 +50,11 @@ public class Controller {
     private RadioButton radioButton13;
     @FXML
     private Label label1;
+    @FXML
+    private ScrollPane spid;
 
     @FXML
-    public void onClick( ) throws SQLException {
+    public void onClick( ) throws SQLException, IOException {
         if(radioButton1.isSelected()) {
 
         String zapytanie=("Select * from employees");
@@ -56,10 +65,12 @@ public class Controller {
             label1.setText(Funkszyn.wykonaj(zapytanie));
         }
         else if(radioButton3.isSelected()){
+            AnchorPane pane = FXMLLoader.load(getClass().getResource("input.fxml"));
+            bpid.setCenter(pane);
+
 
         }
         else if(radioButton4.isSelected()){
-
         }
         else if(radioButton5.isSelected()){
 
