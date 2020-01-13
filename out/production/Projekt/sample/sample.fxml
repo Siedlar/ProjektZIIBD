@@ -25,7 +25,7 @@
    <left>
       <AnchorPane nodeOrientation="LEFT_TO_RIGHT" prefHeight="700.0" prefWidth="400.0" BorderPane.alignment="CENTER">
          <children>
-            <RadioButton fx:id="radioButton1" contentDisplay="TOP" layoutX="4.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="389.0" text="Wyświetl wszystkich pracowników" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="10.0">
+            <RadioButton fx:id="radioButton1" contentDisplay="TOP" layoutX="14.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="335.0" text="Wyświetl wszystkie informacje o pracownikach" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="0.0">
                <font>
                   <Font size="15.0" />
                </font>
@@ -33,12 +33,67 @@
                   <ToggleGroup fx:id="toggleGroup1" />
                </toggleGroup>
             </RadioButton>
-            <RadioButton fx:id="radioButton2" layoutX="4.0" layoutY="49.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true" AnchorPane.bottomAnchor="611.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="40.0">
+            <RadioButton fx:id="radioButton2" layoutX="14.0" layoutY="40.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksze niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true" AnchorPane.bottomAnchor="611.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="40.0">
                <font>
                   <Font size="15.0" />
                </font>
             </RadioButton>
             <Button fx:id="Przycisk" layoutX="312.0" layoutY="661.0" mnemonicParsing="false" onAction="#onClick" text="Wykonaj" AnchorPane.bottomAnchor="14.0" />
+            <RadioButton fx:id="radioButton21" layoutX="14.0" layoutY="89.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Dodaj użytkownika do bazy danych" toggleGroup="$toggleGroup1" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radioButton22" layoutX="14.0" layoutY="138.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radioButton23" layoutX="14.0" layoutY="195.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radioButton24" layoutX="14.0" layoutY="244.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radioButton25" layoutX="14.0" layoutY="293.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radioButton26" layoutX="14.0" layoutY="342.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radioButton27" layoutX="14.0" layoutY="391.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radioButton28" layoutX="14.0" layoutY="440.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radioButton29" layoutX="14.0" layoutY="489.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radioButton210" layoutX="14.0" layoutY="538.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="radioButton211" layoutX="14.0" layoutY="587.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </RadioButton>
          </children>
       </AnchorPane>
    </left>
