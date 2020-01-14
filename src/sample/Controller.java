@@ -15,6 +15,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
+import java.text.ParseException;
 
 public class Controller {
     private Label label;
@@ -22,6 +23,29 @@ public class Controller {
    private Button Przycisk;
     @FXML
     private BorderPane bpid;
+    @FXML
+    private TextField x1;
+    @FXML
+    private TextField x2;
+    @FXML
+    private TextField x3;
+    @FXML
+    private TextField x4;
+    @FXML
+    private TextField x5;
+    @FXML
+    private TextField x6;
+    @FXML
+    private TextField x7;
+    @FXML
+    private TextField x8;
+    @FXML
+    private TextField x9;
+    @FXML
+    private TextField x10;
+    @FXML
+    private TextField x11;
+
     @FXML
     private RadioButton radioButton1;
     @FXML
@@ -52,7 +76,12 @@ public class Controller {
     private Label label1;
     @FXML
     private ScrollPane spid;
+@FXML
+public void wykonaj() throws SQLException, ParseException {
+    String zapytanie=("INSERT INTO EMPLOYEES (EMPLOYEE_ID,FIRST_NAME,LAST_NAME,EMAIL,PHONE_NUMBER,HIRE_DATE,JOB_ID) VALUES(?,?,?,?,?,?,?)");
+    QueryExec.executeInput(zapytanie,x1.getText(),x2.getText(),x3.getText(),x4.getText(),x5.getText(),x6.getText(),x7.getText(),x8.getText(),x9.getText(),x10.getText(),x11.getText());
 
+}
     @FXML
     public void onClick( ) throws SQLException, IOException {
         if(radioButton1.isSelected()) {
@@ -67,6 +96,8 @@ public class Controller {
         else if(radioButton3.isSelected()){
             AnchorPane pane = FXMLLoader.load(getClass().getResource("input.fxml"));
             bpid.setCenter(pane);
+
+
 
 
         }

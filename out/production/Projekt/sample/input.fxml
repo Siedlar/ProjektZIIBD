@@ -9,18 +9,18 @@
 <AnchorPane prefHeight="431.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Label layoutX="66.0" layoutY="47.0" text="FIRST_NAME" />
-      <TextField layoutX="145.0" layoutY="10.0" />
-      <TextField layoutX="145.0" layoutY="140.0" />
-      <TextField layoutX="145.0" layoutY="209.0" AnchorPane.topAnchor="209.0" />
-      <TextField layoutX="145.0" layoutY="175.0" />
-      <TextField layoutX="145.0" layoutY="43.0" />
-      <TextField layoutX="145.0" layoutY="106.0" />
-      <TextField layoutX="145.0" layoutY="75.0" prefHeight="17.0" prefWidth="149.0" />
-      <TextField layoutX="145.0" layoutY="249.0" />
-      <TextField layoutX="145.0" layoutY="280.0" />
-      <TextField layoutX="145.0" layoutY="313.0" />
-      <TextField layoutX="145.0" layoutY="351.0" />
-      <Button layoutX="50.0" layoutY="392.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="245.0" text="Zatwierdz" />
+      <TextField layoutX="145.0" layoutY="10.0" fx:id="x1" />
+      <TextField layoutX="145.0" layoutY="140.0" fx:id="x5" />
+      <TextField layoutX="145.0" layoutY="209.0" AnchorPane.topAnchor="209.0" fx:id="x7" />
+      <TextField layoutX="145.0" layoutY="175.0" fx:id="x6" />
+      <TextField layoutX="145.0" layoutY="43.0" fx:id="x2" />
+      <TextField layoutX="145.0" layoutY="106.0" fx:id="x4" />
+      <TextField layoutX="145.0" layoutY="75.0" prefHeight="17.0" prefWidth="149.0" fx:id="x3" />
+      <TextField layoutX="145.0" layoutY="249.0" fx:id="x8" />
+      <TextField layoutX="145.0" layoutY="280.0" fx:id="x9" />
+      <TextField layoutX="145.0" layoutY="313.0" fx:id="x10" />
+      <TextField layoutX="145.0" layoutY="351.0" fx:id="x11" />
+      <Button layoutX="50.0" layoutY="392.0" mnemonicParsing="false" onAction="#wykonaj" prefHeight="25.0" prefWidth="245.0" text="Zatwierdz" />
       <Label layoutX="71.0" layoutY="79.0" text="LAST_NAME" />
       <Label layoutX="63.0" layoutY="14.0" text="EMPLOYEE_ID" />
       <Label layoutX="100.0" layoutY="110.0" prefHeight="0.0" prefWidth="83.0" text="EMAIL" />
