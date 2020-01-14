@@ -44,52 +44,52 @@
                   <Font size="15.0" />
                </font>
             </RadioButton>
-            <RadioButton fx:id="radioButton4" layoutX="14.0" layoutY="138.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+            <RadioButton fx:id="radioButton4" layoutX="14.0" layoutY="138.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Usuń pracownika z bazy " toggleGroup="$toggleGroup1" wrapText="true">
                <font>
                   <Font size="15.0" />
                </font>
             </RadioButton>
-            <RadioButton fx:id="radioButton5" layoutX="14.0" layoutY="195.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+            <RadioButton fx:id="radioButton5" layoutX="14.0" layoutY="195.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Zaaktualizuj wynagrodzenie użytkownika" toggleGroup="$toggleGroup1" wrapText="true">
                <font>
                   <Font size="15.0" />
                </font>
             </RadioButton>
-            <RadioButton fx:id="radioButton6" layoutX="14.0" layoutY="244.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+            <RadioButton fx:id="radioButton6" layoutX="14.0" layoutY="244.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko ,department_id oraz nazwe dla tego departamentu" toggleGroup="$toggleGroup1" wrapText="true">
                <font>
                   <Font size="15.0" />
                </font>
             </RadioButton>
-            <RadioButton fx:id="radioButton7" layoutX="14.0" layoutY="293.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+            <RadioButton fx:id="radioButton7" layoutX="14.0" layoutY="293.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wyświetl imie i nazwisko managera dla każdego użytkownika" toggleGroup="$toggleGroup1" wrapText="true">
                <font>
                   <Font size="15.0" />
                </font>
             </RadioButton>
-            <RadioButton fx:id="radioButton8" layoutX="14.0" layoutY="342.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+            <RadioButton fx:id="radioButton8" layoutX="14.0" layoutY="342.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz nazwe departamentu, kraj oraz miasto w którym jest zlokalizowany" toggleGroup="$toggleGroup1" wrapText="true">
                <font>
                   <Font size="15.0" />
                </font>
             </RadioButton>
-            <RadioButton fx:id="radioButton9" layoutX="14.0" layoutY="391.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+            <RadioButton fx:id="radioButton9" layoutX="14.0" layoutY="391.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz nazwiska pracowników zaczynające się na literę H lub W" toggleGroup="$toggleGroup1" wrapText="true">
                <font>
                   <Font size="15.0" />
                </font>
             </RadioButton>
-            <RadioButton fx:id="radioButton10" layoutX="14.0" layoutY="440.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+            <RadioButton fx:id="radioButton10" layoutX="14.0" layoutY="440.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz średnia pensje dla każdego departamentu" toggleGroup="$toggleGroup1" wrapText="true">
                <font>
                   <Font size="15.0" />
                </font>
             </RadioButton>
-            <RadioButton fx:id="radioButton11" layoutX="14.0" layoutY="489.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+            <RadioButton fx:id="radioButton11" layoutX="14.0" layoutY="489.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wyświetl nazwisko oraz job_id pracowników którzy nie mają managera" toggleGroup="$toggleGroup1" wrapText="true">
                <font>
                   <Font size="15.0" />
                </font>
             </RadioButton>
-            <RadioButton fx:id="radioButton12" layoutX="14.0" layoutY="538.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+            <RadioButton fx:id="radioButton12" layoutX="14.0" layoutY="538.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Oblicz różnicę wynagrodzenia max od min" toggleGroup="$toggleGroup1" wrapText="true">
                <font>
                   <Font size="15.0" />
                </font>
             </RadioButton>
-            <RadioButton fx:id="radioButton13" layoutX="14.0" layoutY="587.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz pensje użytkownikow których wynagrodzenie jest wieksza niż 12 000 zł" toggleGroup="$toggleGroup1" wrapText="true">
+            <RadioButton fx:id="radioButton13" layoutX="14.0" layoutY="587.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="383.0" text="Wypisz imie,nazwisko oraz datę zatrudnienia pracowników zatrudnionych przed 1997 rokiem" toggleGroup="$toggleGroup1" wrapText="true">
                <font>
                   <Font size="15.0" />
                </font>

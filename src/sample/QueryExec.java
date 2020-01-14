@@ -36,7 +36,7 @@ public class QueryExec {
         preparedStatement.setString(3,x3);
         preparedStatement.setString(4,x4);
         preparedStatement.setString(5,x5);
-        preparedStatement.setDate(6, new Date(1997,12,1));
+        preparedStatement.setDate(6,Date.valueOf(x6));
        preparedStatement.setString(7,x7);
        preparedStatement.setInt(8,Integer.valueOf(x8));
         preparedStatement.setInt(9,Integer.valueOf(x9));
@@ -44,7 +44,22 @@ public class QueryExec {
        preparedStatement.setInt(11,Integer.valueOf(x11));
         preparedStatement.executeUpdate();
 
-        System.out.println("ESSA byniu");
+
+    }
+    public static void executeDelete(String query,String x1) throws SQLException {
+        Connection conn=DBConn.connection();
+        PreparedStatement preparedStatement=conn.prepareStatement(query);
+        preparedStatement.setInt(1,Integer.valueOf(x1));
+        preparedStatement.executeUpdate();
+
+
+    }
+    public static void executeUpdate(String query,String x1,String x2) throws SQLException {
+        Connection conn=DBConn.connection();
+        PreparedStatement preparedStatement=conn.prepareStatement(query);
+        preparedStatement.setInt(2,Integer.valueOf(x1));
+        preparedStatement.setInt(1,Integer.valueOf(x2));
+        preparedStatement.executeUpdate();
 
 
     }
